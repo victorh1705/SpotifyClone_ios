@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Model
 
 struct ArtistMediaHorizontalScrollView: View {
   @EnvironmentObject var mediaDetailVM: MediaDetailViewModel

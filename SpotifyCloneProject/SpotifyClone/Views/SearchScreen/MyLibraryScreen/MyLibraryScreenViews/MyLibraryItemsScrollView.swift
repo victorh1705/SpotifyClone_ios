@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Model
 
 struct MyLibraryItemsScrollView: View {
   @EnvironmentObject var myLibraryVM: MyLibraryViewModel

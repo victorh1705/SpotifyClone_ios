@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Model
 
 struct YourEpisodesScrollScreen: View {
   @EnvironmentObject var myLibraryVM: MyLibraryViewModel

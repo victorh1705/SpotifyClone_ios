@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Model
 
 struct MyLibraryScreen: View {
   @EnvironmentObject var myLibraryVM: MyLibraryViewModel

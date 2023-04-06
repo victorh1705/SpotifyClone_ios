@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Model
 
 struct ArtistDetailScreen: View {
   var mediaDetailVM: MediaDetailViewModel

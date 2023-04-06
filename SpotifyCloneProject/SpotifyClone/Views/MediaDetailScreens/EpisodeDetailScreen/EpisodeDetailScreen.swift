@@ -5,6 +5,7 @@
 //  Created by Gabriel on 10/14/21.
 //
 
+import Model
 import SwiftUI
 
 struct EpisodeDetailScreen: View {

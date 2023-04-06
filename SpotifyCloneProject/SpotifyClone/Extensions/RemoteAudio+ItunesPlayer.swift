@@ -7,6 +7,7 @@
 
 import Foundation
 import Alamofire
+import Model
 
 extension RemoteAudio {
   func playWithItunes(forItem item: SpotifyModel.MediaItem, canPlayMoreThanOneAudio: Bool) {

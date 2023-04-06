@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Model
 
 struct EpisodeDetailsResponse: Decodable {
   let audio_preview_url: String

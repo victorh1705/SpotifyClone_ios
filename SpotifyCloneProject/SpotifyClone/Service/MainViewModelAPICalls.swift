@@ -7,6 +7,7 @@
 
 import Foundation
 import Alamofire
+import Model
 
 class MainViewModelAPICalls {
   func getCurrentUserInfo(with accessToken: String,

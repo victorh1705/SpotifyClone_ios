@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Model
 
 class MainViewModel: ObservableObject {
   private var api = MainViewModelAPICalls()

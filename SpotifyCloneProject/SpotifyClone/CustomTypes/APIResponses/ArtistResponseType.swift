@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Model
 
 /// # Used in
 /// - `User Favorite Artists`

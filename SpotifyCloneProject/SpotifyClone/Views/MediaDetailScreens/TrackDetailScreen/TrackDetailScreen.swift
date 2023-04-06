@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Model
 
 struct TrackDetailScreen: View {
   var mediaDetailVM: MediaDetailViewModel

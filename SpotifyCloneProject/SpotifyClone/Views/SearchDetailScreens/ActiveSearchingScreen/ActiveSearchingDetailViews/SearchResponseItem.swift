@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Model
 
 struct SearchResponseItem: View {
   let imageURL: String

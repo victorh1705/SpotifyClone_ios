@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Model
 
 struct ArtistAlbums: View {
   @EnvironmentObject var mediaDetailVM: MediaDetailViewModel

@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Model
 
 protocol FilterableViewModelProtocol: ObservableObject {
   var selectedMediaTypeFilter: SpotifyModel.MediaTypes? { get set }

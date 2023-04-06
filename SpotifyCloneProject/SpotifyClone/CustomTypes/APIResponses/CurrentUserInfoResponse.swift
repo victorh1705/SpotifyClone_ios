@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Model
 
 class CurrentUserInfoResponse: Decodable {
   let display_name: String

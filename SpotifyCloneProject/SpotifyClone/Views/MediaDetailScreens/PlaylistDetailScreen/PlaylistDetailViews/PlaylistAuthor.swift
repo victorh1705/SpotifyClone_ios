@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Model
 
 struct PlaylistAuthor: View {
   var mediaOwner: SpotifyModel.MediaOwner
