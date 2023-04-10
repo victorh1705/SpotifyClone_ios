@@ -6,7 +6,8 @@
 //
 
 import SwiftUI
-import Model
+import Models
+import Utils
 
 struct TrackInfoSection: View {
   @EnvironmentObject var mediaDetailVM: MediaDetailViewModel

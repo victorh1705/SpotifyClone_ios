@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Utils
 
 struct SmallSongCard: View {
   let imageURL: String

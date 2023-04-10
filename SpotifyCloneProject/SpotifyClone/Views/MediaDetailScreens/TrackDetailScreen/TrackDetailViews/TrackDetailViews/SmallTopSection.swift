@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Utils
 
 struct SmallTopSection: View {
   @EnvironmentObject var mediaDetailVM: MediaDetailViewModel

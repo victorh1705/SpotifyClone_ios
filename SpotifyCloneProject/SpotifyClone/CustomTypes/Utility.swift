@@ -7,7 +7,7 @@
 
 import SwiftUI
 import Alamofire
-import Model
+import Models
 
 struct Utility {
 

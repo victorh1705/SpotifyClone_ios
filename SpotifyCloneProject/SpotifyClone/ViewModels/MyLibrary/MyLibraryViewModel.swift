@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import Model
+import Models
 // need to import SwiftUI because of the CGFloat(currentScrollPosition)
 
 class MyLibraryViewModel: ObservableObject & FilterableViewModelProtocol {

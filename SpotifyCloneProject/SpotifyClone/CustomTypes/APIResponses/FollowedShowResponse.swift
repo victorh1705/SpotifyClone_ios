@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import Model
+import Models
 
 struct FollowedShowResponse: Decodable {
   let items: [FollowedShowItem]

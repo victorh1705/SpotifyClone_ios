@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Utils
 
 struct MyLibraryTopBar: View {
   @EnvironmentObject var myLibraryVM: MyLibraryViewModel

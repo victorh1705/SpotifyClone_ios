@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import Model
+import Models
 
 struct EpisodeResponse: Decodable {
   let items: [Episode]

@@ -6,7 +6,8 @@
 //
 
 import SwiftUI
-import Model
+import Models
+import Utils
 
 /// `RecentlyPlayedScrollView` a smaller sized scroll view(smaller version of `BigSongCoversScrollView`).
 struct RecentlyPlayedScrollView: View {

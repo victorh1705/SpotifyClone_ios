@@ -6,7 +6,8 @@
 //
 
 import SwiftUI
-import Model
+import Models
+import Utils
 
 struct FilterSelectionBar<CurrentViewModel>: View where CurrentViewModel: FilterableViewModelProtocol {
   @ObservedObject var currentViewModel: CurrentViewModel

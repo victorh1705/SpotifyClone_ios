@@ -7,7 +7,7 @@
 
 import Foundation
 import Alamofire
-import Model
+import Models
 
 class APIFetchingArtists {
 

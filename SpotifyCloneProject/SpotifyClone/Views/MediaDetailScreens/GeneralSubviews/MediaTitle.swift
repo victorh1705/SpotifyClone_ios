@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Utils
 
 struct MediaTitle: View {
   let mediaTitle: String

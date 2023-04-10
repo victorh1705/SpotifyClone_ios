@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import Model
+import Models
 
 /// # Used in any response from the Search endpoint of the API
 

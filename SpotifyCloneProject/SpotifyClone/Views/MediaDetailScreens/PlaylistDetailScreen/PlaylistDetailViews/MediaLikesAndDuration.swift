@@ -6,7 +6,8 @@
 //
 
 import SwiftUI
-import Model
+import Models
+import Utils
 
 struct MediaLikesAndDuration: View {
   var playlistTracks: SpotifyModel.PlaylistTracks

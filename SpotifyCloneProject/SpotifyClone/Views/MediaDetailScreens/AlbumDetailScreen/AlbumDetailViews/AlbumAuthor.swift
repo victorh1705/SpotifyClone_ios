@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import Model
+import Models
 
 struct AlbumAuthor: View {
   @EnvironmentObject var mediaDetailVM: MediaDetailViewModel

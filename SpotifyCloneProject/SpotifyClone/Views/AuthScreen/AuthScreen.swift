@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Utils
 
 struct AuthScreen: View {
   @StateObject var authViewModel: AuthViewModel

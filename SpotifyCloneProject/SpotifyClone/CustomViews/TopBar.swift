@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Utils
 
 struct TopBar: View {
   @Environment(\.topSafeAreaSize) var topSafeAreaSize

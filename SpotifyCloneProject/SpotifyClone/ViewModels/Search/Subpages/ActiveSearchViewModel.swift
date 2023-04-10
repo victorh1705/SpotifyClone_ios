@@ -7,7 +7,7 @@
 
 import SwiftUI
 import Combine
-import Model
+import Models
 // need to import SwiftUI because of the CGFloat(currentScrollPosition)
 
 class ActiveSearchViewModel: ObservableObject & FilterableViewModelProtocol {

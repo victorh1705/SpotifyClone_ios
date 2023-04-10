@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import Model
+import Models
 
 struct PlayStopButton: View {
   @StateObject var audioManager: RemoteAudio

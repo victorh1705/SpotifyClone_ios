@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Utils
 
 struct SmallMediaCover: View {
   var imageURL: String
