@@ -6,7 +6,6 @@
 //
 
 import Foundation
-
-struct NumberOfSavedItemsResponse: Decodable {
-  let total: Int
+public struct NumberOfSavedItemsResponse: Decodable {
+  public let total: Int
 }

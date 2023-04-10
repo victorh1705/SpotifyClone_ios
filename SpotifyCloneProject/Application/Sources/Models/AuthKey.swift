@@ -7,10 +7,10 @@
 
 import Foundation
 
-struct AuthKey: Decodable {
-  var accessToken: String
-  var refreshToken: String
-  var scope: String
+public struct AuthKey: Decodable {
+  public var accessToken: String
+  public var refreshToken: String
+  public var scope: String
 
   private enum CodingKeys: String, CodingKey {
     case accessToken = "access_token"

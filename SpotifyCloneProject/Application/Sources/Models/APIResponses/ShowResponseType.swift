@@ -6,15 +6,13 @@
 //
 
 import Foundation
-import Models
+
 
 /// # Used in
 /// - `Top podcasts`
-
-struct ShowResponse: Decodable {
-  let shows: ShowItem
+public struct ShowResponse: Decodable {
+  public let shows: ShowItem
 }
-
-struct ShowItem: Decodable {
-  let items: [Show]
+public struct ShowItem: Decodable {
+  public let items: [Show]
 }

@@ -6,8 +6,7 @@
 //
 
 import Foundation
-import Models
 
-struct EpisodeResponse: Decodable {
-  let items: [Episode]
+public struct EpisodeResponse: Decodable {
+  public let items: [Episode]
 }

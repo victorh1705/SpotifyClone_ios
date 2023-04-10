@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct SpotifyMediaContent {
-  let title: String
-  let author: String
-  let imageURL: String
-  var isPodcast: Bool = false
-  var isArtist: Bool = false
+public struct SpotifyMediaContent {
+  public let title: String
+  public let author: String
+  public let imageURL: String
+  public var isPodcast: Bool = false
+  public var isArtist: Bool = false
 
-  init(title: String,
+  public init(title: String,
        author: String,
        imageURL: String,
        isPodcast: Bool = false,

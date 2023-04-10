@@ -6,17 +6,16 @@
 //
 
 import Foundation
-import Models
+
 
 /// # Used in
 /// - `Artist's Top Tracks`
-
-struct TrackResponse: Decodable {
-  let tracks: [Track]
+public struct TrackResponse: Decodable {
+  public let tracks: [Track]
 
   private enum CodingKeys: String, CodingKey { case items, tracks }
 
-  init(from decoder: Decoder) throws {
+  public init(from decoder: Decoder) throws {
     let container = try decoder.container(keyedBy: CodingKeys.self)
     if let tracks = try? container.decode([Track].self, forKey: .items) {
       self.tracks = tracks
@@ -29,7 +28,7 @@ struct TrackResponse: Decodable {
     }
   }
 
-  struct TrackResponseItem: Decodable {
-    let track: Track
+  public struct TrackResponseItem: Decodable {
+    public let track: Track
   }
 }

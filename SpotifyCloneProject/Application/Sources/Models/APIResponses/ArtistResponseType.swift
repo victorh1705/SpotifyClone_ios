@@ -6,18 +6,17 @@
 //
 
 import Foundation
-import Models
+
 
 /// # Used in
 /// - `User Favorite Artists`
 /// - `Artist's Top Tracks` (Used only to get the first artist)
-
-struct ArtistResponse: Decodable {
-  let items: [Artist]
-
+public struct ArtistResponse: Decodable {
+  public let items: [Artist]
+  
   private enum CodingKeys: String, CodingKey { case items, artists }
 
-  init(from decoder: Decoder) throws {
+  public init(from decoder: Decoder) throws {
     let container = try decoder.container(keyedBy: CodingKeys.self)
     if let artists = try? container.decode([Artist].self, forKey: .artists) {
       self.items = artists
