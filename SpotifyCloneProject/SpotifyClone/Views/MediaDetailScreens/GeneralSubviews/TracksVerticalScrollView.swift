@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import Models
+import Utils
 
 struct TracksVerticalScrollView: View {
   @EnvironmentObject var mediaDetailVM: MediaDetailViewModel

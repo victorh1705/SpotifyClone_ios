@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import Models
+import Utils
 
 struct ShowsDetailScreen: View {
   var mediaDetailVM: MediaDetailViewModel

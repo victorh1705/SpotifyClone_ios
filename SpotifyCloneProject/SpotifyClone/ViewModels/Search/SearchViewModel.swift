@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Models
 
 class SearchViewModel: ObservableObject {
   private var api = SearchPageAPICalls()

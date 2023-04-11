@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import Models
+import Utils
 
 struct SmallSongCardsGrid: View {
   var medias: [SpotifyModel.MediaItem]

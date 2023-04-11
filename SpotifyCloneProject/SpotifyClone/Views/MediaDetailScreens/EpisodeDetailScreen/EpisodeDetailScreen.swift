@@ -5,7 +5,9 @@
 //  Created by Gabriel on 10/14/21.
 //
 
+import Models
 import SwiftUI
+import Utils
 
 struct EpisodeDetailScreen: View {
   var mediaDetailVM: MediaDetailViewModel

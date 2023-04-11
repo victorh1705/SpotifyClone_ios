@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import Models
+import Utils
 
 struct BigSongItem: View {
   let imageURL: String

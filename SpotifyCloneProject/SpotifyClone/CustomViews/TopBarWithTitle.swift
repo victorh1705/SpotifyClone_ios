@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Utils
 
 struct TopBarWithTitle: View {
   @Binding var scrollViewPosition: CGFloat

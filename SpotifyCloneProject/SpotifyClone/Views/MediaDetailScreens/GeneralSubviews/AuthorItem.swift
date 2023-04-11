@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Utils
 
 struct AuthorItem: View {
   var name: String

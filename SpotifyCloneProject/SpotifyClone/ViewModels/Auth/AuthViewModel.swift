@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Models
 
 class AuthViewModel: ObservableObject {
   var mainViewModel: MainViewModel

@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Utils
 
 struct SearchBarSection: View {
   @EnvironmentObject var searchVM: SearchViewModel

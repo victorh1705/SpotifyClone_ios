@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import Models
+import Utils
 
 struct ShowEpisodesScrollView: View {
   @EnvironmentObject var mediaDetailVM: MediaDetailViewModel

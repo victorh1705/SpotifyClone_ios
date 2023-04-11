@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Utils
 
 struct BigArtistNameTitle: View {
   var name: String

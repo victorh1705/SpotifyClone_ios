@@ -9,6 +9,7 @@
 // Sections that support that: Top Podcasts, New Releases, Playlist This is X
 
 import SwiftUI
+import Models
 
 class HomeViewModel: ObservableObject {
   private var api = HomePageAPICalls()

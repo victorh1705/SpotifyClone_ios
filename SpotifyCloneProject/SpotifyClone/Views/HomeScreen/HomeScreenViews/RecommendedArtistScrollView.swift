@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import Models
+import Utils
 
 struct RecommendedArtistScrollView: View {
   @EnvironmentObject var homeVM: HomeViewModel

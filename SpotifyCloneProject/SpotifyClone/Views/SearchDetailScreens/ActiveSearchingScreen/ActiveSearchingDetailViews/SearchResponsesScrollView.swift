@@ -7,6 +7,8 @@
 
 import SwiftUI
 import UIKit
+import Models
+import Utils
 
 struct SearchResponsesScrollView: View {
   @EnvironmentObject var searchVM: SearchViewModel

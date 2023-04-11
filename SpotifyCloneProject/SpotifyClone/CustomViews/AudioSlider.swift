@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Utils
 
 struct AudioSlider: View {
   @ObservedObject var remoteAudio: RemoteAudio

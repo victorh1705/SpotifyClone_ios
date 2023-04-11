@@ -7,6 +7,7 @@
 
 import Foundation
 import Alamofire
+import Models
 
 struct APIAuthentication {
   private var baseURL = "https://accounts.spotify.com/"
